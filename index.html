@@ -16,6 +16,9 @@
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
 
+  <!-- favicon-->
+  <link rel="shortcut icon" href="favicon.ico">
+
 </head>
 
 <body>
@@ -30,12 +33,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio
+            <a class="nav-link" href="#inicio">Inicio
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Diseño</a>
+            <a class="nav-link" href="#funciones">Funciones</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
@@ -49,12 +52,14 @@
   </nav>
 
   <!-- Header -->
-  <header class="bg-primary py-5 mb-5">
+  <header class="bg-primary py-5 mb-5"  id="inicio">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
           <h1 class="display-4 text-white mt-5 mb-2">Bot de Messenger</h1>
-          <p class="lead mb-5 text-white-50" style="color:white !important">Utilizando las herramientas de Facebook Developers para la implementación de bots que interactuan en Messenger</p>
+          <p class="lead mb-5 text-white-50" style="color:white !important">
+            Utilizando las herramientas de Facebook Developers
+             para la implementación de bots que interactuan en Messenger se diseñó un bot para una pastelería</p>
         </div>
       </div>
     </div>
@@ -63,10 +68,10 @@
 
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" >
 
     <!-- Sección de inicio -->
-    <div class="row">
+    <div class="row" >
       <div class="col-md-6">
         <h2>Miralo funcionar</h2>
         <p>En este video se muestra la interacción entre el bot y el usuario</p>
@@ -101,54 +106,163 @@
     </div>
     <!-- Fin sección de inicio -->
 
-
+    <!-- Inicio sección explicacion  -->
+    <br id="funciones"><br><br><br>
+    <h2 class="text-center" >Explicación de las funciones</h2>
     <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-          </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <h4 class="card-title">Entrar al chat</h4>
+            <p class="card-text">En el momento en que el usuario entra a chat de bot este lo saluda con el
+              <strong>nombre del usuario</strong>. En este caso <i> Jonatan</i>. Para que este seleccion la opción <i>Empezar</i> </p>
           </div>
+          <img class="card-img-top" src="img/explicacion/1_entra_chat.png" alt="">
         </div>
       </div>
+
+
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-          </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <h4 class="card-title">Inicio chat</h4>
+            <p class="card-text">En el momento que el usuario presiona el boton de <i>Empezar </i>, el bot le manda un mensaje inicial indicandole que interactue a través del menú del chat</p>
           </div>
+          <img class="card-img-top" src="img/explicacion/2_inicio_chat.png" alt="">
         </div>
       </div>
+
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <h4 class="card-title">Menú principal</h4>
+            <p class="card-text">En el menú principal se pueden tener varias secciones que conducen a su respectivo submenú. En este caso las opciones son: Menú de productos, información de compra e información de contacto</p>
           </div>
+          <img class="card-img-top" src="img/explicacion/3_menu_principal.png" alt="">
         </div>
       </div>
     </div>
     <!-- /.row -->
 
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Submenú</h4>
+            <p class="card-text">Al ingresar en la opción <strong>Menú de productos</strong> se muestra el respectivo submenú, el cual contiene las opciones de motrar pasteles o cupcakes</p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/4_submenu.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Mostrar pasteles</h4>
+            <p class="card-text">Cuando se selecciona la opción <strong>pasteles</strong> el bot trae la lista de pasteles disponibles, cada elemento contiene: una imagen, titulo y descripción </p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/5_mostrar_pasteles.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Respuestas de texto</h4>
+            <p class="card-text">Dentro del menú <strong> Información de compra </strong>
+              en el momento en que el usuario selecciona la opción
+               <strong>Forma de pago</strong> el bot trae una respuesta en <strong> texto </strong> y se la muestra al usuario</p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/6_respuesta_texto.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Respuesta de imagen</h4>
+            <p class="card-text">Cuando el usuario selecciona
+               <strong>Promoción mensual</strong> el bot trae una respuesta en texto e <strong> imagen </strong></p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/7_respuesta_imagen.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Realizar llamada</h4>
+            <p class="card-text"> Al seleccionar la opción <strong>Llámanos</strong>
+              el usuario puede seleccionar el boton que le aparece en pantalla, lo cual abrirá la aplicación de
+              llamadas y le permitirá contactarse con un asesor</p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/8_llamadas.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Respuestas en texto</h4>
+            <p class="card-text">Dentro del menú <strong> Información de compra </strong>
+              en el momento en que el usuario selecciona la opción
+               <strong>Forma de pago</strong> el bot trae una respuesta en <strong> texto </strong> y se la muestra al usuario</p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/6_respuesta_texto.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+
+
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-footer">
+            <h4 class="card-title">Mapas</h4>
+            <p class="card-text">Cuando el usuario selecciona
+               <strong>Ubica nuestro local</strong>
+               el bot trae una lista de ubicaciones de Google Mapas en las cuales el usuario puede explorar
+               y desplazarse sin salir de la apliación de Messenger, como se muestra en el video inicial</p>
+          </div>
+          <img class="card-img-top" src="img/explicacion/9_mapas.png" alt="">
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- /.row -->
+
+
+
+    <!-- Fin sección explicacion  -->
+
+
+
+
   </div>
   <!-- /.container -->
+
+
+
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Jonatan Parra Toro</p>
+      <p class="m-0 text-center text-white"><a href="https://www.linkedin.com/in/jonatan-parra/" target="_blank"> Perfil Linkedin  </a> </p>
+      <p class="m-0 text-center text-white"><a href="https://jonatan-parra.github.io/" target="_blank"> Github  </a> </p>
     </div>
     <!-- /.container -->
   </footer>
